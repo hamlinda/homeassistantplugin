@@ -1,0 +1,9 @@
+DOMAIN = "homeassistant_sensor_reader"
+CONF_RECEIVER_URL = "receiver_url"
+CONF_POLL_INTERVAL_MINUTES = "poll_interval_minutes"
+CONF_SEND_METADATA = "send_metadata"
+DEFAULT_RECEIVER_URL = "http://localhost:8000/sensor-updates"
+DEFAULT_POLL_INTERVAL_MINUTES = 5
+MIN_POLL_INTERVAL_MINUTES = 5
+METADATA_FILE = "sensor_reader_metadata.json"
+DATA_COORDINATOR = "coordinator"
